@@ -1,0 +1,46 @@
+.header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    background: #555;
+}
+
+.header__container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 20% 40%; 
+    width: 100%;
+    height: 100%; 
+}
+
+.header__logo {
+    height: 75px;
+    width: 75px;
+    background: #fff;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.header__img {
+
+}
+
+.header__nav {
+    color: #fff;
+}
+
+.header__ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4.5em;
+}
+
+.header__li {
+    color: #fff;
+}
+

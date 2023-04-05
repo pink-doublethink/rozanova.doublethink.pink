@@ -1,0 +1,23 @@
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__container {
+    width: clamp(380px, 65vh, 1260px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__title {
+    width: 250px;
+    height: 250px;
+}
+
+.hero__logo {
+    min-width: clamp(300px, 75%, 95vh);
+    aspect-ratio: 1;
+}
