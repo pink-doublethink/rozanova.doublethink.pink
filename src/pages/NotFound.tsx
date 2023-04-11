@@ -1,7 +1,11 @@
-import { VoidComponent } from 'solid-js'
+import { VoidComponent, createEffect  } from 'solid-js'
 import { Link } from 'solid-app-router'
 
 const NotFound: VoidComponent = () => {
+    createEffect(() => {
+        document.title = 'Ошибка 404';
+    });
+
     return (
         <div style={{ "min-height": '100vh' , display: 'flex',  "flex-direction": 'column', "align-items": 'center', "justify-content": 'center', margin: '0 4%'}}>
             <div style={{ width: "clamp(200px, 50%, 800px)", height: "clamp(200px, 42%, 900px)"}}>
