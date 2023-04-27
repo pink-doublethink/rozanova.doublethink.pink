@@ -46,3 +46,7 @@
       transform: rotateZ(360deg);
     }
   }
+
+  @supports (selector(&)) {
+    /* nesting parsing available */
+  }

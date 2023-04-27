@@ -208,8 +208,46 @@ p {
 
 /* ================== Something ================= */
 
+.blockC {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #556;
+}
 
+.block__containerC {
+    width: clamp(380px, 65vh, 1260px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.block__c1 {
+    width: 400px;
+    height: 400px;
+    background: #666;
+}
+
+.block__c2 {
+
+}
+
+.block__c3 {
+
+}
+
+.block__c4 {
+
+}
+
+.block__c5 {
+
+}
+
+.block__c7 {
+
+}
 
 /* ================== Media Queries ================= */
 /* Extra Large Devices only ~ xll = 1936 px */
@@ -236,3 +274,5 @@ p {
 @media(max-width:22.5em) {
     
 }
+
+
