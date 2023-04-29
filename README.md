@@ -1,34 +1,18 @@
-## Usage
+----
+### What is the project about?
+---
+- The project was created in order to create a blog about the importance of developing a blog about emotional intelligence. When creating the blog, I used and studied the UI component libraries Ant Design and Material UI. 
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+- The information in the project is the result of personal searches of literature and practices to develop the ability to analyze one's emotions in order to better understand oneself and others. 
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+---
+## Install and run commands
+----
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
+All commands are run from the root of the project, from a terminal:
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm dev` or `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+| Command                | Action                                             |
+| :--------------------- | :------------------------------------------------- |
+| `pnpm install`          | Installs dependencies                              |
+| `pnpm run dev`          | Starts local dev server at `localhost:3000`        |
+| `pnpm run build`        | Build your production site to `./dist/   
