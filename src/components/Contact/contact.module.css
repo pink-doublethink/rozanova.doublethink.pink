@@ -31,14 +31,14 @@
         justify-content: center;
         background-color: #556;
         
-        &.block__container {
+        & .block__container {
             width: clamp(380px, 65vh, 1260px);
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
-        &.block__title {
+        & .block__title {
             width: 250px;
             height: 250px;
             font-size: 4em;

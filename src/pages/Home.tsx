@@ -1,5 +1,5 @@
 import { VoidComponent, createEffect } from 'solid-js'
-import { Hero, PictureGallery, WhatWasFamous, WhySheStillRemembered} from "../components"
+import { Hero, LiveAuction, TopAuthors, PopulerCollections} from "../components"
 
 const Home: VoidComponent = () => {
     createEffect(() => {
@@ -9,9 +9,9 @@ const Home: VoidComponent = () => {
     return (
         <div>
             <Hero />
-            <PictureGallery />
-            <WhatWasFamous />
-            <WhySheStillRemembered />
+            <LiveAuction />
+            <TopAuthors />
+            <PopulerCollections />
         </div>
     )
 }

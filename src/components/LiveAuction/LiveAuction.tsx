@@ -1,7 +1,7 @@
 import type { Component } from 'solid-js'
-import styles from './pictureGallery.module.css'
+import styles from './liveAuction.module.css'
 
-export const PictureGallery: Component = () => {
+export const LiveAuction: Component = () => {
     return (
       <div class={styles.block}>
         <div class={styles.block__container}>

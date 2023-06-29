@@ -184,38 +184,38 @@
         min-height: 100vh;
         background-color: #556;
 
-        &.wrapper {
+        & .wrapper {
             width: clamp(380px, 65vh, 1260px);
             display: flex;
             align-items: center;
             justify-content: center;
             
-            &.conten_sidebar {
-                .call_to_action {
+            &. conten_sidebar {
+                & .call_to_action {
 
                 }
 
-                .btn {
+                & .btn {
 
                 }
 
-                &.primary_sedebar {
-                    .call_to_action {
+                & .primary_sedebar {
+                    & .call_to_action {
 
                     }
 
-                    .btn {
+                    & .btn {
 
                     }
                 }
             }
             
-            &.even_columns {
-                &.call_to_action {
+            & .even_columns {
+                & .call_to_action {
 
                 }
 
-                &.btn {
+                & .btn {
 
                 }
             }

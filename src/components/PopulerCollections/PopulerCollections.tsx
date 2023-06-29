@@ -1,7 +1,7 @@
 import type { Component } from 'solid-js'
-import styles from './whySheStillRemembered.module.css'
+import styles from './populerCollections.module.css'
 
-export const WhySheStillRemembered: Component = () => {
+export const PopulerCollections: Component = () => {
     return (
       <div class={styles.block}>
         <div class={styles.block__container}>

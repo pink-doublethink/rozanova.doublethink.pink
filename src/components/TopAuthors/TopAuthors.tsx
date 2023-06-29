@@ -1,7 +1,7 @@
 import type { Component } from 'solid-js'
-import styles from './whatWasFamous.module.css'
+import styles from './topAuthors.module.css'
 
-export const WhatWasFamous: Component = () => {
+export const TopAuthors: Component = () => {
     return (
       <div class={styles.block}>
         <div class={styles.block__container}>
