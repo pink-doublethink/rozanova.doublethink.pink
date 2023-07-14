@@ -1,5 +1,4 @@
 .header {
-    position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,7 +45,6 @@
 
 @supports (selector(&)) {
     .header {
-        position: fixed;
         display: flex;
         align-items: center;
         justify-content: center;

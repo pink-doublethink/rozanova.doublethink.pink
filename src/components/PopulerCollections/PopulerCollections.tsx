@@ -5,7 +5,7 @@ export const PopulerCollections: Component = () => {
     return (
       <div class={styles.block}>
         <div class={styles.block__container}>
-            <div class={styles.block__title}>Почему ее до сих помнят</div>
+            <div class={styles.block__title}>Populer Collections</div>
         </div>
       </div>
     )

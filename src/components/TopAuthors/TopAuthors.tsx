@@ -5,7 +5,7 @@ export const TopAuthors: Component = () => {
     return (
       <div class={styles.block}>
         <div class={styles.block__container}>
-            <div class={styles.block__title}>Чем была известны</div>
+            <div class={styles.block__title}>Top Authors</div>
         </div>
       </div>
     )

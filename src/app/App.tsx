@@ -1,7 +1,7 @@
 import type { Component } from 'solid-js';
 import { Route, Router, Routes } from 'solid-app-router'
 import { lazy, Suspense } from 'solid-js'
-import {Header, Loader} from "../components";
+import {Header, Loader, Footer} from "../components";
 
 
 const Home = lazy(() => import('../pages/Home'));
@@ -22,11 +22,12 @@ const App: Component = () => {
               <Route path="bio" element={<Biography />} />
               <Route path="contact" element={<Contacts />} />
               <Route path="legacy" element={<Legacy />} />
-              <Route path="*" element={<NotFound />}></Route>
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </Suspense>
         </main>
       </Router>
+      <Footer />
     </div>
   );
 };

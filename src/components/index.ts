@@ -6,6 +6,10 @@ import { Loader } from "./Loader/Loader";
 import { LiveAuction } from "./LiveAuction/LiveAuction";
 import { TopAuthors } from "./TopAuthors/TopAuthors";
 import { PopulerCollections } from "./PopulerCollections/PopulerCollections";
+import { CreatorWeek } from "./CreatorWeek/CreatorWeek";
+import { OurPopularTeam } from "./OurPopularTeam/OurPopularTeam";
+import { LatestBlog } from "./LatestBlog/LatestBlog";
+import { Footer } from "./Footer/Footer";
 
 
 import { BecomingArtist } from "./BecomingArtist/BecomingArtist";
@@ -17,4 +21,4 @@ import { PlacesMemory } from "./PlacesMemory/PlacesMemory";
 import { BooksBiography } from "./BooksBiography/BooksBiography";
 
 
-export {Header, Loader, Hero, Contact, LiveAuction, TopAuthors, PopulerCollections, BecomingArtist, CreativeDissolution, LifeThroughArt, CulturalHeritage, PlacesMemory, BooksBiography}
+export {Header, Loader, Hero, Contact, LiveAuction, TopAuthors, PopulerCollections, CreatorWeek, OurPopularTeam, LatestBlog, Footer, BecomingArtist, CreativeDissolution, LifeThroughArt, CulturalHeritage, PlacesMemory, BooksBiography}
