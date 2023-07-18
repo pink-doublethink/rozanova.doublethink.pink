@@ -18,6 +18,7 @@
     },
     "plugins": ["solid", "@typescript-eslint", "prettier"],
     "rules": {
+      "custom-rules/strict-enum": "error",
       "prettier/prettier": "error",
       "react/react-in-jsx-scope": "off",
       "react/prop-types": "off",
